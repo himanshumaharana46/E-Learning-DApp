@@ -1,0 +1,53 @@
+.course-deleter {
+  margin-top: 20px;
+}
+
+.course-input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.course-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.confirmation-modal {
+  background-color: #fff3f3;
+  border: 1px solid #ff4d4d;
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.confirm-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.course-status {
+  margin-top: 10px;
+  font-weight: bold;
+}

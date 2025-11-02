@@ -1,0 +1,104 @@
+/* Overall container */
+.body-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+ /* Example 1: Basic Linear Gradient */
+background: linear-gradient(to right, #dd9b8b, #bbe1b6);
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.body-heading {
+  font-size: 28px;
+  text-align: center;
+  color: green;
+  margin-bottom: 40px;
+}
+
+/* Two-column layout */
+.body-content {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Left: Image Carousel */
+.image-carousel {
+  position: relative;
+  width: 400px;       /* Increased width */
+  height: 250px;      /* Increased height */
+  overflow: hidden;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateX(100%);
+  animation: pageTransition 16s infinite;
+}
+
+.img-1 { animation-delay: 0s; }
+.img-2 { animation-delay: 4s; }
+.img-3 { animation-delay: 8s; }
+.img-4 { animation-delay: 12s; }
+
+@keyframes pageTransition {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  25% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  35% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+}
+
+/* Right: Scrolling Text */
+.body-text {
+  max-width: 600px;
+  color: rgb(131, 6, 93);
+}
+
+.scroll-container {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-container p {
+  animation: scrollUp 12s linear infinite;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+  text-align: justify;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

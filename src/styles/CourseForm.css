@@ -1,0 +1,48 @@
+.course-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  /* Example 1: Basic Linear Gradient */
+background: linear-gradient(to right, #ecbcb0, #5c4bee);
+
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.course-form-container h3 {
+  margin-bottom: 1.5rem;
+  /* Example 1: Basic Linear Gradient */
+
+
+}
+
+.course-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.course-button {
+  background-color: #28a745;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.course-button:hover {
+  background-color: #218838;
+}
+
+.course-status {
+  margin-top: 1rem;
+  font-weight: 500;
+}

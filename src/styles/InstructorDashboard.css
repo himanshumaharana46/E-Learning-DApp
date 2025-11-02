@@ -1,0 +1,34 @@
+.instructor-dashboard {
+  padding: 2rem;
+  background-color: rgb(214, 214, 232);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-title {
+  text-align: center; /* ✅ Center the title */
+  font-size: 3rem;
+  font-weight: 1500;
+  color: #72030a;
+  margin-bottom: 1rem;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: flex-end; /* ✅ Align navbar to the right */
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.course-card {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}

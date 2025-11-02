@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.certificate-uploader-container {
+  max-width: 540px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.certificate-uploader-container:hover {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+.certificate-uploader-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.certificate-uploader-container label {
+  display: block;
+  margin-top: 1.2rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.certificate-uploader-container input[type="file"],
+.certificate-uploader-container select {
+  width: 100%;
+  padding: 0.65rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s ease;
+}
+
+.certificate-uploader-container input[type="file"]:focus,
+.certificate-uploader-container select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.certificate-uploader-container button {
+  margin-top: 1.8rem;
+  width: 100%;
+  padding: 0.8rem;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certificate-uploader-container button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.certificate-uploader-container p {
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+  line-height: 1.4;
+}

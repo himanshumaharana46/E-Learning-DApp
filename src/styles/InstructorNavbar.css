@@ -1,0 +1,25 @@
+.instructor-navbar {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.instructor-navbar button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.instructor-navbar button:hover {
+  background-color: #2980b9;
+}
+
+.instructor-navbar button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.4);
+}

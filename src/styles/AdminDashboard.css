@@ -1,0 +1,49 @@
+.admin-page {
+  padding: 40px;
+  /* Example 1: Basic Linear Gradient */
+background: linear-gradient(to right, #9a87d7, #c6da6c);
+
+}
+
+.admin-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.admin-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.admin-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.status-message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.instructor-list-container {
+  margin-top: 20px;
+  background: #7be68b;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.instructor-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
